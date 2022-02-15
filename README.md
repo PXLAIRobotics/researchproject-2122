@@ -21,9 +21,9 @@ Below, you can view all details about the available topics and services, along w
 # Drone status
 *(more publishers regarding drone status)*
 * **/drone/position**: Sends the current position of the drone. Uses Vector3Msg.
-* * **/drone/nav/src**: If the drone is moving from node A to node B, the **source** is node A. This will be returned by this topic while not arrived. Uses StringMsg.
-* * **/drone/nav/dst**: If the drone is moving from node A to node B, the **destination** is node B. This will be returned by this topic while no new valid destination is set. Uses StringMsg.
-* * **/drone/nav/at_node**: Returns true if the drone reached its destination node. False when still flying towards target. Uses BoolMsg.
+* **/drone/nav/src**: If the drone is moving from node A to node B, the **source** is node A. This will be returned by this topic while not arrived. Uses StringMsg.
+* **/drone/nav/dst**: If the drone is moving from node A to node B, the **destination** is node B. This will be returned by this topic while no new valid destination is set. Uses StringMsg.
+* **/drone/nav/at_node**: Returns true if the drone reached its destination node. False when still flying towards target. Uses BoolMsg.
 
 
 # Drone commands 
