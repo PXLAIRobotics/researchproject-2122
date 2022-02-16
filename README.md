@@ -29,6 +29,13 @@ Below, you can view all details about the available topics and services, along w
 # Drone commands 
 *(listeners waiting for your command)*
 
-COMING SOON
+## /drone_cmd
+*Main topic on which the drone listens to commands. Different command can be sent. Command must always be in String format*
+
+* **PAUSE**: Pauses the drone at current position.
+* **RESUME**: Resumes the movement of the drone.
+* **TURN_LEFT** / **TURN_RIGHT**: Rotates the drone 45 degrees left or right. Used to look around at current position. Drone will automatically turn towards destination position when flying towards it.
+* ***NODENAME***: Instruct the drone to fly towards the node with the specified name. (e.g. "ALPHA", "BRAVO", ...) The drone will only set the node as its destination if it has arrived at its last destination node AND the specified node is directly connected to the current location node where the drone is located. In other scenarios, the command will be ignored. Single exception is when the drone is flying from node ALPHA to node BRAVO and we instruct it to fly back to A. In this case, the drone will turn around and fly back to ALPHA when instructed to do so.
+
 
 
