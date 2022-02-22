@@ -4,8 +4,15 @@
 Teams are provided a Unity simulation environment.
 The environment can be used with ROS, using [this Docker container](https://github.com/PXLRoboticsLab/ROS2_Unity).
 
+# Unity scene
+You can download the (standalone) Unity scene in our MS Teams channel (Files > Course Material), or via [this link](https://hogeschoolpxl.sharepoint.com/:u:/s/ResearchProject-AIRobotics/EZcivc9etfVCkYHheYEYRg8Bmm0xlwB8HkP8diUBsRMZCA?e=OOb1ui). A Unity installation is not required to run the simulation.
+
+You should be able to start the simulation by executing ```./build.x86_64```. The build is targetted for Linux systems, so this won't work for Windows. 
+
+*If a Windows version is required, let us know. (but do remember that ROS2 will need to run in Windows as well in that case)*
+
 # Setup
-Start the (standalone) Unity scene. You should see the thermal camera of the drone. *Use the 'C' button to switch camera's. (under construction)*
+Start the (standalone) Unity scene. You should see the thermal camera of the drone. Use the 'C' button to switch camera's. *(more cameras will be added in next version)*
 
 Run the ROS2_Unity container. Read the documentation first to understand how it works. Summary: start container, attach to it and start the ./01... script so it connects to your (local) Unity instance. Unity can run on your local host machine, the Docker container should pick this up automatically.
 
