@@ -14,7 +14,7 @@ You should be able to start the simulation by executing ```./build.x86_64```. Th
 # Setup
 Start the (standalone) Unity scene. You should see the thermal camera of the drone. Use the 'C' button to switch camera's. *(more cameras will be added in next version)*
 
-Build and run the ROS2_Unity container. **Read the documentation first** to understand how it works. Summary: start container, attach to it and start the ./01... script so it connects to your (local) Unity instance. Unity can run on your local host machine, the Docker container should pick this up automatically.
+Build and run the [ROS2 Unity Docker container](https://github.com/PXLRoboticsLab/ROS2_Unity). **Read the documentation first** to understand how it works. Summary: start container, attach to it and start the ./01... script so it connects to your (local) Unity instance. Unity can run on your local host machine, the Docker container should pick this up automatically.
 
 When attaching a second terminal to the Docker container, a ```ros2 topic list``` command should reveal the ROS topics below, because they are exposed by the Unity environment.
 
