@@ -3,6 +3,7 @@
 
 Teams are provided a Unity simulation environment.
 The environment can be used with ROS, using [this Docker container](https://github.com/PXLRoboticsLab/ROS2_Unity).
+All necessary info will be shared here. The document will be updated regularly, so it is recommended to check it every now and then.
 
 # Unity simulation
 You can download the (standalone) Unity scene in our MS Teams channel (Files > Course Material), or via [this link](https://hogeschoolpxl.sharepoint.com/:u:/s/ResearchProject-AIRobotics/EZcivc9etfVCkYHheYEYRg8Bmm0xlwB8HkP8diUBsRMZCA?e=OOb1ui). A Unity installation is not required to run the simulation.
