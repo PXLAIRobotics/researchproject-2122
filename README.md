@@ -6,7 +6,7 @@ The environment can be used with ROS, using [this Docker container](https://gith
 All necessary info will be shared here. The document will be updated regularly, so it is recommended to check it every now and then.
 
 # Unity simulation
-You can download the (standalone) Unity scene in our MS Teams channel (Files > Course Material), or via [this link](https://hogeschoolpxl.sharepoint.com/:u:/s/ResearchProject-AIRobotics/EZcivc9etfVCkYHheYEYRg8Bmm0xlwB8HkP8diUBsRMZCA?e=OOb1ui). A Unity installation is not required to run the simulation.
+You can download the (standalone) Unity scene in our MS Teams channel (Files > Course Material), or via [this link](https://hogeschoolpxl.sharepoint.com/:u:/r/sites/ResearchProject-AIRobotics/Gedeelde%20documenten/Unity%20simulation/PADAWANS_v2.zip?csf=1&web=1&e=i7C6Jg). A Unity installation is not required to run the simulation.
 
 You should be able to start the simulation by executing ```./build.x86_64```. The build is targetted for Linux systems, so this won't work for Windows. 
 
